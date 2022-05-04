@@ -1,0 +1,19 @@
+git init
+
+git status
+
+git commit -m "name" 
+
+git log --oneline
+
+git log
+
+git checkout <second commit's number> index.html
+
+git reset HEAD index.html
+
+git checkout -- index.html
+
+git remote add origin <repository URL>
+
+git clone <repository URL>

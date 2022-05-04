@@ -1,0 +1,7 @@
+npm init
+
+npm install lite-server --save-dev (configurar start y lite dentro de package.json)
+
+npm start
+
+.gitignore (sirve para poner las cosas que no queres subir a github, por ejemplo node_modules)
