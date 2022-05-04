@@ -17,3 +17,6 @@ git checkout -- index.html
 git remote add origin <repository URL>
 
 git clone <repository URL>
+
+git push -u origin main
+

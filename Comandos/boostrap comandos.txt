@@ -1,0 +1,9 @@
+<div class="container"> - contenedor
+
+<div class="row"> - fila
+
+<div class="col-12 col-sm-4 col-md-3"> - para el titulo
+
+<div class="col col-sm col-md"> - para el texto
+
+<header class="jumbotron"> - Sirve para separar el header del resto
