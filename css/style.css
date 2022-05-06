@@ -19,15 +19,25 @@
     padding: 20px 0px 20px 0px;
 }
 
-.solid {
-
-    border: 10px solid red;
-}
-
 
 .top-bottom {
 
     margin-top: 40px;
     margin-bottom: 40px;
 
+}
+
+
+
+body {
+
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+
+}
+
+
+.navbar-dark{
+
+    background-color: #512DA8;
 }
