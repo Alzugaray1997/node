@@ -50,14 +50,33 @@
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row ">
-                <div class="col-12 col-sm-6">
+            <div class="row">
+                <div class="col-4">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
+                        
                 </div>
-                <div class="col-12 col-sm">
+                <div>
                 </div>
+                <div class="col-4">
+                    <a href="#table" class="navbar-brand mr-auto img-fluid"><img src="img/logo.png" height="120" width="120"></a>
+                    
+                </div>
+
+                <div class="col-3 align-self-center">
+                    
+                    <a role="buttom" class="btn bg-warning btn-sm btn-block  text-secondary" href="#table" role="button">Reserve a Table</a>
+
+                </div>
+                
+
+                  
+
+                
+
+                    
+
             </div>
         </div>
     </header>
@@ -67,11 +86,12 @@
         <div class="row row-content align-self-center">
             <div class="col-12">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="img/uthappizza.png" alt="Uthappizza">
+                    <h3 class="col-2 order-sm-last d-none d-sm-block">Our Lipsmacking Culinary Creations</h3>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
                         <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span>
-                             <span class="badge badge-secondary">$4.99</span> </h2>
+                            <span class="badge badge-secondary">$4.99</span>
+                        </h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -89,62 +109,118 @@
 
 
 
-
     <div class="container">
-
-        <div class="row row-content">
-
-            <div class="col-12 col-sm-4 col-md-3">
-                <h2>Title 2</h2>
-
+        <div class="row row-content align-self-center">
+            <div class="col-12">
+                <div class="media">
+                    <div class="col-3 align-self-center d-none d-sm-block">
+                        <h2>This Month Promotion</h2>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center order-sm-last " src="img/buffet.png"
+                        alt="buffet">
+                    <div class="media-body align-self-center">
+                        <h1 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span>
+                        </h1>
+                        <p class="d-none d-sm-block">Feautring mougwatering combinations with a choice of five
+                            different salad, six enticing appeizers, six main entrees and five choicest desserts. Free
+                            flowing bubbly and soft drinks. All for just $19.99 per person
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col col-sm col-md row-content">
-                <p>Un texto es una composición de signos codificados en un sistema de escritura que forma una unidad de
-                    sentido.
-
-                    También es una composición de caracteres imprimibles (con grafema) generados por un algoritmo de
-                    cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su
-                    destinatario original. En otras palabras, un texto es un entramado de signos con una intención
-                    comunicativa que adquiere sentido en determinado contexto.
-
-                    Las ideas que comunica un texto están contenidas en lo que se suele denominar «macroproposiciones»,
-                    unidades estructurales de nivel superior o global, que otorgan coherencia al texto constituyendo su
-                    hilo central, el esqueleto estructural que cohesiona elementos lingüísticos formales de alto nivel,
-                    como los títulos y subtítulos, la secuencia de párrafos, etc. En contraste, las «microproposiciones»
-                    son los elementos coadyuvantes de la cohesión de un texto, pero a nivel más particular o local. Esta
-                    distinción fue realizada por Teun van Dijk en 1980.1</p>
-
-            </div>
-
 
         </div>
 
-
     </div>
+
+
+
+
+
+
+
+
+
 
     <div class="container">
 
         <div class="row row-content">
             <div class="col-12">
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail align-self-center"
-                        src="img/alberto.png" alt="Alberto Somayya">
-                <div class="media-body">
-                    <h2 class="mb-10">
-                    <h4>Executive Chef</h4>
-                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
-                        International experience having worked closely with
-                        whos-who in the culinary world, he specializes in
-                        creating mouthwatering Indo-Italian fusion experiences.
-                        </p>
+                <div class="media offset-1">
+                    <h2 class="order-sm-last align-self-center col-2 d-none d-sm-block">Meet our Culinary Specialists</h2>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
+                        alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mb-10">
+                            <h1>Alberto Somoya</h1>
+                            <h4>Executive Chef</h4>
+                            <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                                International experience having worked closely with
+                                whos-who in the culinary world, he specializes in
+                                creating mouthwatering Indo-Italian fusion experiences.
+                            </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+
+    <div class="container" id="table">
+        <div class="row row-content">
+            <div class="col-12">
+                <div class="card">
+                    <h3 class="card-header bg-yellow text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        <div class="form-group row ">
+                            <label for="guests">Number of Guests</label>
+                            <div class="col-5 col-sm-3">
+                                <input type="radio" name="guests" id="guests"> 1
+                                <input type="radio" name="guests" id="guests"> 2
+                                <input type="radio" name="guests" id="guests"> 3
+                                <input type="radio" name="guests" id="guests"> 4
+                                <input type="radio" name="guests" id="guests"> 5
+                                <input type="radio" name="guests" id="guests">  6
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="date">Date and Time</label>
+                            <div class="col-3 ">
+                                <input type="text" placeholder="Date" class="form-control">
+                            </div>
+                                <div class="col-3">
+                                    <input type="text" name="" id="" class="form-control" placeholder="Time">
+
+                                </div>
+
+                        </div>
+
+
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary" id="reserve" name="reserve">Reserve</button>
+    
+                            </div>
+                        </div>
+
+                              
+                                
+                        
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
 
     </div>
+
+
 
     <footer class="footer">
         <div class="container">
@@ -193,6 +269,9 @@
             </div>
         </div>
     </footer>
+
+
+
 
 
 </body>
